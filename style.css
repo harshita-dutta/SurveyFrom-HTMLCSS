@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+
+    font-family: Poppins;
+}
+
+.heading{
+   margin-top: 2%;
+   background-color: rgba(0, 0, 0, 0.7);
+   width: 50%;
+   padding: 3% 0% 3% 0%;
+   text-align: center;
+   font-size: 28px;
+   font-weight: 700;
+   letter-spacing: 3px;
+   text-transform: uppercase;
+}
+
+.form-details{
+    padding-top: 1.5%;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 2%;
+    padding-bottom: 1.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-size: 17px;
+}
+
+.form-details label input{
+    height: 20px;
+    font-size: 15px;
+    border: none;
+
+}
+
+
+.input{
+    outline: none;
+    width: 100%;
+    margin-bottom: 2%;
+    margin-top: 1.5%;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 1% 2% 1% 2%;
+    font-size: 18px;
+}
+
+.button{
+    width: 100%;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 18px;
+    font-weight: 800;
+    border: 2px solid white;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: 0.4s;
+    border-color: black;
+}
+

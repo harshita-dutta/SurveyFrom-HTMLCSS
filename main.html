@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    
+</head>
+<body>
+    <div class="heading">
+        Survey Form
+    </div>
+
+    <div class="form-details">
+        <form>
+            <label for="nameInput" class=""> Name <br>
+                <input type="text" class="input" id="name">
+            </label> <br>
+            <label for="dobInput">Date of Birth <br>
+                <input type="date" class="input" id="dob">
+            </label> <br>
+            <label for="emailInput"> Email ID <br>
+                <input type="email" class="input" id="email">
+            </label> <br>
+
+            <label for="q1">Brief about your current technical knowlegde <br>
+                <textarea name="ans1" id="curKnowledge" cols="35" rows="5" class="input"></textarea>
+            </label>  <br>
+
+            <label for="q2">Whta do you aim to achieve? <br>
+                <textarea name="ans2" id="aim" cols="35" rows="5" class="input"></textarea>
+            </label> <br>
+
+            <label for="q3">Describe your dream project. <br>
+                <textarea name="ans3" id="dreamProject" cols="35" rows="5" class="input"></textarea>
+            </label> <br>
+
+            <button type="submit" class="button">
+                SUBMIT
+            </button>
+        </form>
+    </div>
+</body>
+</html>
